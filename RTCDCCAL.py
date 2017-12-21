@@ -1,4 +1,6 @@
 #Written by Aaron Sahm and Adam Betemedhin 12/19/2017
+#Requires installation of pySerial, pyVISA, and a configured GPIB connection
+#Current version has been tested with a Keithley 2001, Sorensen DLM-40-15, National Instruments GPIB to USB interface
 from __future__ import division
 import serial
 import time
