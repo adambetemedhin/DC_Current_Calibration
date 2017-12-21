@@ -1,6 +1,8 @@
 #Written by Aaron Sahm and Adam Betemedhin 12/19/2017
 #Requires installation of pySerial, pyVISA, and a configured GPIB connection
 #Current version has been tested with a Keithley 2001, Sorensen DLM-40-15, National Instruments GPIB to USB interface
+#Program on first run will ask for settings and write them to a file for future use
+#Data collected is written to a file named "data.txt" in column separated by "space"
 from __future__ import division
 import serial
 import time
